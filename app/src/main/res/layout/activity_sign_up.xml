@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_marginTop="50dp"
-    tools:context=".Customer.SignUpActivity">
+    tools:context=".Customer.SignUp">
 
     <TextView
         android:id="@+id/textView"
@@ -22,8 +22,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
         android:orientation="vertical">
 
         <TextView
@@ -31,11 +31,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:textSize="13dp"
+            android:textSize="18dp"
             android:text="Tên đăng nhập" />
 
         <EditText
-            android:id="@+id/edtUserName"
+            android:id="@+id/edUserName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -44,11 +44,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:textSize="13dp"
+            android:textSize="18dp"
             android:text="Mật khẩu" />
 
         <EditText
-            android:id="@+id/edtPassword"
+            android:id="@+id/edPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -59,11 +59,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:textSize="13dp"
+            android:textSize="18dp"
             android:text="Nhập lại mật khẩu" />
 
         <EditText
-            android:id="@+id/edtRePassword"
+            android:id="@+id/edRePassword"
             android:layout_width="match_parent"
             android:ems="10"
             android:inputType="textPassword"
@@ -72,7 +72,7 @@
         <Button
             android:id="@+id/btnSignUp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/black"
             android:text="Đăng kí"

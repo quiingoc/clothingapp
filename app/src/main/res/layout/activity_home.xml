@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Customer.HomeActivity">
+    tools:context=".Customer.Home">
 
     <LinearLayout
         android:id="@+id/lnbar"
@@ -35,7 +35,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_marginRight="10sp"
-                app:srcCompat="@drawable/search" />
+                app:srcCompat="@drawable/icsearch" />
 
             <TextView
                 android:id="@+id/textView33"
@@ -46,12 +46,12 @@
         </LinearLayout>
 
         <ImageButton
-            android:id="@+id/imbtnCart"
+            android:id="@+id/bimgCart"
             android:layout_width="match_parent"
             android:layout_marginLeft="20dp"
             android:layout_height="35dp"
             android:backgroundTint="@android:color/transparent"
-            app:srcCompat="@drawable/shoppingcart" />
+            app:srcCompat="@drawable/icshoppingcart" />
 
     </LinearLayout>
     <androidx.core.widget.NestedScrollView
@@ -138,7 +138,7 @@
                 android:id="@+id/imageView15"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                app:srcCompat="@drawable/homepage" />
+                app:srcCompat="@drawable/ichomepage" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -159,7 +159,7 @@
                 android:id="@+id/imageView16"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                app:srcCompat="@drawable/cate" />
+                app:srcCompat="@drawable/iccate" />
 
             <TextView
                 android:id="@+id/textView29"
@@ -179,7 +179,7 @@
                 android:id="@+id/imageView18"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                app:srcCompat="@drawable/user" />
+                app:srcCompat="@drawable/icuser" />
 
             <TextView
                 android:id="@+id/textView31"

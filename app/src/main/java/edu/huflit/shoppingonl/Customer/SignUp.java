@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import edu.huflit.shoppingonl.R;
 
-public class SignUpActivity extends AppCompatActivity {
+public class SignUp extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

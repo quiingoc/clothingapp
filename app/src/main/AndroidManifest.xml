@@ -13,13 +13,31 @@
         android:theme="@style/Theme.Shoppingonl"
         tools:targetApi="31">
         <activity
-            android:name=".Customer.LoginActivity"
+            android:name=".Customer.Home"
             android:exported="false" />
         <activity
-            android:name=".Customer.SignUpActivity"
+            android:name=".Admin.ManageOrder"
             android:exported="false" />
         <activity
-            android:name=".Customer.HomeActivity"
+            android:name=".Admin.ManageUser"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AddProduct"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ManageProduct"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.Login"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
