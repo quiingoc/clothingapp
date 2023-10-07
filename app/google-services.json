@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "959613026371",
+    "firebase_url": "https://clothingapp-3c45c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "clothingapp-3c45c",
+    "storage_bucket": "clothingapp-3c45c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959613026371:android:3bfdc6f186bdd295c354f6",
+        "android_client_info": {
+          "package_name": "edu.huflit.shoppingonl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_guFYnPIr0A_Xw6cd5rs6EBY51aO8T5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959613026371:android:8a2226d2018fd601c354f6",
+        "android_client_info": {
+          "package_name": "edu.huflit.shoppingonl.Customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_guFYnPIr0A_Xw6cd5rs6EBY51aO8T5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

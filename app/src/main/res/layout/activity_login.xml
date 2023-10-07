@@ -5,19 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_marginTop="50dp"
+    android:layout_marginTop="80dp"
     tools:context=".Customer.Login">
 
     <TextView
         android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
+        android:textSize="34dp"
         android:layout_weight="1"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:layout_gravity="center"
-        android:text="Đăng nhập" />
+        android:text="LOGIN" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,6 +64,80 @@
             android:backgroundTint="@color/black"
             android:text="Đăng nhập"
             android:textColor="@color/white" />
+
+        <!--    line-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="hoặc đăng nhập/đăng ký với"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/black"/>
+
+        </LinearLayout>
+
+        <!--Google-->
+
+        <LinearLayout
+            android:id="@+id/login_GG"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="32dp"
+            android:padding="5dp"
+            android:background="#F1F1F1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/imggg"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Tiếp tục với Google"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:text="Chưa có tài khoản? Đăng ký tại đây"/>
 
     </LinearLayout>
 
