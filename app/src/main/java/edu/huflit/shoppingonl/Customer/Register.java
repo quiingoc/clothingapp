@@ -18,7 +18,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.Map;
 
-import edu.huflit.shoppingonl.Customer.Model.User;
+import edu.huflit.shoppingonl.Model.User;
 import edu.huflit.shoppingonl.R;
 
 public class Register extends AppCompatActivity {
