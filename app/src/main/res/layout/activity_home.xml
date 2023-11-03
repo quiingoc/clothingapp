@@ -12,10 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
         android:orientation="horizontal">
 
@@ -46,14 +44,16 @@
         </LinearLayout>
 
         <ImageButton
-            android:id="@+id/bimgCart"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="20dp"
+            android:id="@+id/ibCart"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="40dp"
             android:layout_height="35dp"
             android:backgroundTint="@android:color/transparent"
             app:srcCompat="@drawable/icshoppingcart" />
 
     </LinearLayout>
+
+
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -72,13 +72,16 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-                    <com.denzcoskun.imageslider.ImageSlider
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPager"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginEnd="10dp"
                         android:layout_width="match_parent"
-                        android:layout_height="180dp"
-                        app:iss_period="1000"
-                        app:iss_auto_cycle="true"
-                        app:iss_delay="1000"
-                        android:id="@+id/imSlider"/>
+                        android:layout_height="200dp"
+                        android:contentDescription="Banner"
+                        />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -93,7 +96,7 @@
                 android:textColor="@color/black"/>
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rcvNewPro"
+                android:id="@+id/rvNewPro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"/>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Customer.Detail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/gray"
+            app:srcCompat="@drawable/icback" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Chi tiết sản phẩm"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="0">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/sivDetail"
+            android:layout_width="180dp"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            app:shapeAppearanceOverlay="@style/circular"
+            android:layout_marginRight="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvProName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Áo gile kẻ sọc"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tvProID"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ProductID: Pr1"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tvCate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Category: Jacket"
+                android:textSize="12sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#838383" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description: "
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tvProDes"
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="Chúng tôi đang triển khai các chương trình giám sát nhằm đảm bảo sự tuân thủ các tiêu chuẩn của chúng tôi về xã hội, môi trường, cũng như về độ an toàn và tính lành mạnh của các sản phẩm. Nhằm đánh giá sự tuân thủ các tiêu chuẩn này, chúng tôi đã phát triển một chương trình kiểm toán và các kế hoạch cải thiện liên tục.
+                                                                LỚP NGOÀI: 56% vải cotton, 44% vải pôliexte"
+                android:textSize="10sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#838383" />
+
+            <TextView
+                android:drawableLeft="@drawable/ic_currency"
+                android:id="@+id/tvPrice"
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.500.000 VND"
+                android:textSize="12sp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCart"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/gray"
+            android:text="Add to cart"
+            android:textSize="16sp"
+            android:textColor="#494949" />
+
+        <ImageButton
+            android:id="@+id/btnLike"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/gray"
+            android:background="@drawable/rounded_button"
+            android:src="@drawable/icheart"/>
+
+    </LinearLayout>
+
+</LinearLayout>
